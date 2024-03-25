@@ -1,0 +1,12 @@
+/* Practice CustomFonts Style Sheet */
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+  }
+
+.websafe{
+    font-family: Arial, Courier, "Courier New";
+}
+.google {
+    font-family: 'Montserrat', Georgia, serif;
+}
