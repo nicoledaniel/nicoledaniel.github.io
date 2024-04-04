@@ -1,0 +1,52 @@
+#threethings {
+    overflow: hidden;
+    background-color: rgb(219, 195, 216);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#threethings div {
+    background-color: rgb(219, 195, 216);
+    float: left;
+    width: 200px;
+    margin: 38px;
+    padding: 0px;
+    color: rgb(152, 62, 194);
+}
+
+#cake {
+    font-size: large;
+    outline: auto;
+}
+
+#art {
+    font-size: large;
+    outline: auto;
+}
+
+#pets {
+    font-size: large;
+    outline: auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+button {
+    margin-right: 23px;
+    background-color: rgb(249, 225, 247);
+    border-radius: 10px;
+    outline: rgb(249, 225, 247);
+    padding: 3px;
+    width: 70px;
+}
+
+#contact {
+    width: 83px;
+}
+
+#exp {
+    width: 105px;
+}
