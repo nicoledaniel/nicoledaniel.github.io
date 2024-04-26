@@ -1,0 +1,91 @@
+body { 
+	background-image: linear-gradient(to bottom, #754343, #FFE1E3);
+    border: 5px solid #393939;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;  
+}
+
+form {
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-top: 12px;
+    background-color: #FFE1E3;
+    padding: 10px;
+    padding-left: 123px;
+    padding-bottom: 30px;
+    border: 5px solid #B88F90;
+}
+
+input {
+    background-color: white;
+    transition: all 1s ease 0.5s;
+    color: violet;
+}
+
+input:focus {
+    background-color: #393939;
+    font-size: 1.2rem;
+}
+
+.form1 {
+    margin-bottom: 0px;
+    border-bottom: 0;
+}
+
+.form2 {
+    margin-top: 0px;
+    border-top: 0;
+}
+
+nav { 
+	background-color: #FFE1E3;
+    padding: 1.1%;
+    border-bottom: 5px solid #393939;
+    text-decoration: none;
+    color: #754343;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+footer { 
+    
+	font-size: 75%;
+	text-align: center;
+    padding-top: 20px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav ul li a:active {
+    color: #667D66;
+}
+
+footer h2 {
+    color: #754343;
+    margin: 0;
+    font-size: x-large;
+}
+
+nav ul span img {
+    float: left;
+    margin-top: 0;
+}
