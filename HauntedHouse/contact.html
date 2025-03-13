@@ -1,0 +1,76 @@
+<!--Modification Log
+#Original Author: Nicole Daniel
+#Date Created: 02/01/2025
+#Version: 0.0
+#Modified By: Nicole Daniel
+#Modification Log:
+
+Version 0.0 - 02/01/2025 - Added Html tags, body tags, main tags, head tags, navigation system, linked to css file, added a tile,
+ meta tags, black star images, added some text in a <p> tag and a header in a <h1> tag
+Version 0.1 - 02/19/2025 - Added the working <form> tags and created/connected it to contact.js
+
+-->
+
+<!DOCTYPE html>
+<!-- Nicole Daniel
+     updated 3/7/2025 -->
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name="author" content="Nicole Daniel" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Nicole Daniel Web Developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/contact.css" rel="stylesheet">
+  </head>
+<body>
+      <nav>
+        <ul>
+          <span><a href="index.html"><img src="images/sipderweb.png" width="30" alt="spiderweb"></a></span>
+          <li>&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;</li>
+          <img src="images/blackstar.png" alt="Black Star" height="15">
+          <li>&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;</li>
+          <img src="images/blackstar.png" alt="Black Star" height="15">
+          <li>&nbsp;&nbsp;<a href="datesandevents.html">Dates & Events</a>&nbsp;&nbsp;</li> 
+          <img src="images/blackstar.png" alt="Black Star" height="15">
+          <li>&nbsp;&nbsp;<a href="cast.html">Cast</a>&nbsp;&nbsp;</li>
+          <img src="images/blackstar.png" alt="Black Star" height="15">
+          <li>&nbsp;&nbsp;<a href="contact.html">Contact</a>&nbsp;&nbsp;</li>
+        </ul>
+      </nav>
+  <main>
+    <title>Contact Form</title>
+</head>
+<body>
+  <div class="contact-container">
+          <div id="overlay">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left"onsubmit="event.preventDefault(); validateForm()">
+                
+              <div class="contact-left-title">
+                <h2>Contact Us</h2>
+                <hr>
+              </div>
+              <input type="hidden" name="access_key" value="594c0251-a391-4e31-b3cb-4910769b093c">
+
+                <input type="text" id="name" placeholder="Your Name" class="contact-inputs">
+                <small class="error"></small>
+
+                <input type="text" id="email" placeholder="Your Email" class="contact-inputs">
+                <small class="error"></small>
+
+                <textarea type="text" id="message" placeholder="Your Message" rows="6" class="contact-inputs"></textarea>
+                <small class="error"></small>
+
+                <div class="sendmessage">
+                    <input class="w3-blue" type="submit" value="Send Message">
+                    <p id="success"></p>
+                </div>
+            
+              </form>
+          </div>
+  </div>
+            
+  <script src="JavaScript/contact.js"></script>
+</body>
+</html>

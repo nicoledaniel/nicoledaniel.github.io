@@ -1,0 +1,169 @@
+/*Modification Log
+#Original Author: Nicole Daniel
+#Date Created: 
+#Version: 0.0
+#Modified By: Nicole Daniel
+#Modification Log:
+
+Version 0.0 - 02/01/2025 - Added gereral "look good" css to make the website have the vibe that it does
+Version 0.1 - 02/28/2025 - Added stary night background so that it didnt look so boring
+*/
+/*Updated 3/10/25*/
+
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+
+form { 
+    text-align: center;
+    color: #f85c5c;
+}
+
+select { 
+    width: 13em; 
+}
+span {
+    color: orange;
+}
+.messages {
+    color: red;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    border: 2px solid red;
+    border-radius: 1em;
+}
+
+main p {
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: #cb905c;
+}
+
+nav { 
+	background-color: #d2782a;
+    padding: 1.3%;
+    border-bottom: 3.6px solid #34a868;
+    border-top: 3.6px solid #34a868;
+    border-left: 10px solid #34a868;
+    border-right: 10px solid #34a868;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul span img {
+    float: left;
+    margin-top: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background: #574068;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
+
+/* updated 3/10/25*/
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 38px;
+    background-image: url("/images/starynight.jpg");
+}
+
+.w3-blue {
+    background-color: #e0b8e5;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 17px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #e0b8e5;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #1b042c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+
